@@ -1,89 +1,77 @@
 body {
   font-family: Montserrat, Oswald, Arial, sans-serif;
+  margin: 0;  /*  CRUCIAL!!!  take it away and see what it does*/
 }
 
+
+#topbar {
+  width: 100%;
+  height: 90px;
+  background-color: #00FFFF;
+}
 
 /*****************************************
-   HEADING
+   HEADING and NAVIGATION
 *****************************************/
-
-
-#seen {
-    float: left;
-    margin: 0 0 30px 0;
-    padding: 5px 0 0 0;
-    width: 50%;
-    height: 45%;
-}
-
-#links {
-    float: right;
-}
-
 #name {
-  font-size: 3em;
+  width: 25%;
+  height: 150px;
+  background-color: #0000000;
+  margin: 0;
+  padding: 0 0 0 5%;
+  float: left;
 }
 
-.menubar > li{
-  text-style-decoration: none;
-  display: inline;
-
+#iPic {
+  float: left;
+  width: 35%;
+  margin: 0;
+  margin-bottom: 0;
+  padding: 0;
+  border-radius: 20px; /* ????? */
 }
 
-
-
-#logo {
-    text-align: center;
-    margin: 0;
-}
-
-.bordered {
-  border: 30px groove red;
-  font-weight: 900;
-  border-radius: 25%;
-  padding: 30px;
-}
-
-.menubar {
-  text-align: center;
+#nav {
+  width: 25%;
+  height: 150px;
+  padding: 0 0 0 5%;
   float: right;
+  margin: 0;
+  border-left: 3px solid black;
 }
 
-
-a {
-  text-decoration: none;
-  border: 10px ridge blue;
-  padding: 10px;
-  border-radius: 30%;
+#nav ul {
+  padding: 30px 0 0 0;
 }
 
-.navigation > links li {
-  width: 50px;
-}
-
-ul li {
+#nav li {
   list-style-type: none;
+  margin: 5px 0;
 }
 
-#move {
+#nav a {
+  text-decoration: none;
+}
+
+
+/*******************************
+  LEFT COLUMN
+*******************************/
+#leftContent {
+  height: 800px;
+  width: 30%;
+  background-color: #00FFFF;
   clear: both;
+  margin: 0;
 }
 
-a#one:hover {
-  color: pink;
+#midContent {
+  border: 3px solid black;
+  height: 800px;
+  width: 30%;
 }
 
-a#two:hover {
-  background-color: yellow;
-}
 
-a#three:active {
-  padding: 0 15px;
-}
 
-#myHeader {
-  position: fixed;
-  margin-bottom: 50px;
-  width: 100%;
-}
+
 
