@@ -1,0 +1,89 @@
+body {
+  font-family: Montserrat, Oswald, Arial, sans-serif;
+}
+
+
+/*****************************************
+   HEADING
+*****************************************/
+
+
+#seen {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 50%;
+    height: 45%;
+}
+
+#links {
+    float: right;
+}
+
+#name {
+  font-size: 3em;
+}
+
+.menubar > li{
+  text-style-decoration: none;
+  display: inline;
+
+}
+
+
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+.bordered {
+  border: 30px groove red;
+  font-weight: 900;
+  border-radius: 25%;
+  padding: 30px;
+}
+
+.menubar {
+  text-align: center;
+  float: right;
+}
+
+
+a {
+  text-decoration: none;
+  border: 10px ridge blue;
+  padding: 10px;
+  border-radius: 30%;
+}
+
+.navigation > links li {
+  width: 50px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+#move {
+  clear: both;
+}
+
+a#one:hover {
+  color: pink;
+}
+
+a#two:hover {
+  background-color: yellow;
+}
+
+a#three:active {
+  padding: 0 15px;
+}
+
+#myHeader {
+  position: fixed;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
